@@ -13,6 +13,9 @@ namespace hello_world
         static void Main(string[] args)
         {
             WriteLine("Hello World!!");
+
+            WriteLine("\npress any button to exit");
+
             ReadKey(); //приложение не закроется пока небудет нажата какая нибудь кнопка
           
         }
